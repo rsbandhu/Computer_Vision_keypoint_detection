@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-In this project, you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
+In this project, we’ll combine computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
 
 ![Facial Keypoint Detection][image1]
 
@@ -18,12 +18,11 @@ __Notebook 4__ : Fun Filters and Keypoint Uses
 
 ### `models.py`
 
-#### Specify the CNN architecture
+#### CNN architecture
 | Criteria       		|     Meets Specifications	        			            | 
 |:---------------------:|:---------------------------------------------------------:| 
 |  Define a CNN in `models.py`. |  Define a convolutional neural network with at least one convolutional layer, i.e. self.conv1 = nn.Conv2d(1, 32, 5). The network should take in a grayscale, square image. |
 
-### Submission Notes
 the NN architecture is defined in models.py file
 It has got 3 Convolutional layers followed by 2 fully connected layers
 
@@ -31,12 +30,10 @@ It has got 3 Convolutional layers followed by 2 fully connected layers
 
 'data_transform' has been defined
 loss function" SmoothedL1loss
-Optimizer: Adam (default settings)
+Optimizer: Adam 
 
 Train:
 Training done with several CNN architectures, loss functions, batch size, optimizer
-
-Answer all questions: please see answers in the relevant sections
 
 ### Notebook 3
 
