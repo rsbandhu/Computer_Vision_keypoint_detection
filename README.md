@@ -1,4 +1,4 @@
-# Udacity_Computer_Vision_Proj1_keypoint_detection
+# Computer_Vision_keypoint_detection
 
 ## Project Overview
 
